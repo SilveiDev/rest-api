@@ -1,7 +1,7 @@
 const axios = require('axios');
  
 const options = {
-  creator: "Roku Maou || Rest Api By Ryan Erwin",
+  creator: "Silvei Api's || Rest Api By Ryan Erwin",
   port: 3000,
   limit: 100000000,
   
@@ -19,7 +19,7 @@ module.exports = {
     google: {
     	clientId: "574520314477-37uoebkj1b3labqiitns1uts8atmvir6.apps.googleusercontent.com",
     	clientSecret: "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",
-    	callbackURL: "https://api.arifzyn.biz.id/auth/google/callback"
+    	callbackURL: "https://api.silvei.my.id/auth/google/callback"
     }, 
     bing: []
   },
@@ -45,8 +45,8 @@ module.exports = {
   },
   
   web: {
-    title: "Arifzyn API", 
-    footer: "Copyright © 2023 Arifzyn.",
+    title: "Silvei API", 
+    footer: "Copyright © 2023 Riansyah.",
     tags: {
       "anime": "fas fa-ghost", 	
       "download": "fas fa-download",
